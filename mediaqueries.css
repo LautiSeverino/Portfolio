@@ -1,0 +1,128 @@
+@media screen and (max-width:1400px) {
+    #perfil{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .detalles-container{
+        flex-wrap: wrap;
+    }
+
+    section{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #barra-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #sobre-mi, .sobre-mi-detalles-container{
+        margin-top: 1rem;
+    }
+    .sobre-mi-container{
+        display: block;
+    }
+    #perfil, .section-container{
+        display: block;
+    }
+    section, .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+        padding: 0;
+    }
+    .section__img-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .sobre-mi-container,
+    .proyectos-container{
+    margin-top: 0;
+    }
+
+    .conocimientos-container{
+        /* display: block; */
+        margin-bottom: 0;
+    }
+
+    .detalles-container{
+        margin-bottom: 3rem;
+    }
+
+}
+
+@media screen and (max-width:740px){
+    .proyectos-container{
+        display: block;
+    }
+}
+
+@media screen and (max-width:610px){
+    #contacto, footer{
+        height: 40vh;
+    }
+    #perfil{
+        height: 83vh;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .contacto-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .contacto-info-container{
+        margin: 0;
+    }
+    .contacto-info-container p, .nav-links li a{
+        font-size: 1rem;
+    }
+    .conocimientos-subtitle{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .titulo{
+        font-size: 2rem;
+    }
+    .contacto-info-upper-container, .contacto-info-container{
+        margin: 10px;
+    }
+
+    .section__img-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text p {
+        font-size: 1.25rem;
+    }
+    .text-container{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:510px){
+    .conocimientos-container{
+        display: block;
+        margin-bottom: 0;
+    }
+}
