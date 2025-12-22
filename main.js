@@ -1,6 +1,7 @@
 const navContenedor = document.querySelector("#hamburger-nav")
 const perfilButtons = document.querySelector(".btn-container")
 
+document.getElementById("current-year").textContent = new Date().getFullYear();
 function returnMenu() {
     navContenedor.innerHTML = `
     <div class="logo"><p>Lautaro Severino</p></div>
@@ -29,9 +30,10 @@ function abrirMenu() {
 
 function abrirVentanaCV() {
     perfilButtons.innerHTML = `
-    <button class="btn btn-color-1" onclick="window.open('./assets/Lautaro_Severino_CV.pdf')">Descargar CV</button>
+    <button class="btn btn-color-1" onclick="window.open('./assets/Curriculum_Vitae.pdf')">Descargar CV</button>
     <button class="btn btn-color-2" onclick="location.href='#contacto'">Contacto</button>`
 }
+
 
 abrirVentanaCV()
 returnMenu()

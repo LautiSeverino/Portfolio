@@ -55,6 +55,12 @@
         margin-bottom: 3rem;
     }
 
+  #experiencia .section__img-container {
+    width: 320px;
+    height: 170px;
+    margin: 0 auto 2rem;
+  }
+
 }
 
 @media screen and (max-width:740px){
@@ -118,11 +124,32 @@
     .text-container{
         text-align: justify;
     }
+
+      #conocimientos .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 1rem;
+  }
+
+  #conocimientos .skill-item {
+    height: 92px;
+    border-radius: 16px;
+  }
+
+  #conocimientos .skill-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+    #experiencia .section__img-container {
+    width: 92%;
+    height: 150px;
+    padding: 1rem;
+  }
 }
 
-@media screen and (max-width:510px){
+/* @media screen and (max-width:510px){
     .conocimientos-container{
         display: block;
         margin-bottom: 0;
     }
-}
+} */
